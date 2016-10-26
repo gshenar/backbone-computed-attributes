@@ -1,6 +1,6 @@
 # Backbone Computed Attributes Mixin
 
-This mixin allows you to create composite attribute for standard Backbone models.    
+This mixin allows you to create composite attributes for standard Backbone models.    
 
 Specifying a getter allows computing an attribute value based on multiple bindings to other attributes across contexts.  This allows an attribute to have a function value and then use get to retrieve the evaluated function result, instead of evaluating the function when requested. You cannot specify a computed setter. 
 
